@@ -1,0 +1,11 @@
+.SYNOPSIS 
+    This script starts the HP Array Diagnostic Utility (ADU) and then gives it the command to generate a report, saves it to the root of the current working path in XML format, then parses it to output a list of drives that could be having issues.
+.NOTES 
+    Additional Notes, eg 
+    File Name  : adu.ps1 
+    Author     : Edwin Garcia - edwing@gmail.com
+    Requires   : PowerShell, PSExec
+.LINK 
+   <Intranet KB article>
+.EXAMPLE 
+    PS C:\> .\adu.ps1
